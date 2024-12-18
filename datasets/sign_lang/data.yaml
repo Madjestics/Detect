@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'W', 'Y']
+
+roboflow:
+  workspace: hand-gestures-recognition
+  project: hand-gestures-dataset
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hand-gestures-recognition/hand-gestures-dataset/dataset/7
